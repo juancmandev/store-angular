@@ -54,12 +54,15 @@ export class AppComponent {
       description: 'Lorem ipsum dolor sit amet.',
     },
   ];
+
   addItem() {
     this.items.push('new item');
   }
+
   deleteItem(index: number) {
     this.items.splice(index, 1);
   }
+
   clickProduct(id: number) {
     console.log('product');
     console.log(id);
