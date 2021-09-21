@@ -9,6 +9,7 @@ import { Product } from './product.model';
 export class AppComponent {
   title = 'store-angular';
   items = ['angular', 'react', 'vue', 'svelte'];
+  object = {};
   products: Product[] = [
     {
       id: '1',
@@ -58,5 +59,9 @@ export class AppComponent {
   }
   deleteItem(index: number) {
     this.items.splice(index, 1);
+  }
+  clickProduct(id: number) {
+    console.log('product');
+    console.log(id);
   }
 }
