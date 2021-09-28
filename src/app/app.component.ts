@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'store-angular';
   items = ['angular', 'react', 'vue', 'svelte'];
   object = {};
+  power = 10;
   products: Product[] = [
     {
       id: '1',
