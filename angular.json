@@ -118,6 +118,7 @@
   },
   "defaultProject": "store-angular",
   "cli": {
+    "analytics": "7573a7c9-4aa8-45d6-9aad-0704c31a4aa9",
     "defaultCollection": "@angular-eslint/schematics"
   }
 }
